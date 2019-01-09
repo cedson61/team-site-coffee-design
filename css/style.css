@@ -15,7 +15,7 @@ a{text-decoration:none;}
 .clear{clear:both;}
 .pos-relative{position:relative;}
 .pos-absolute{position:absolute;}
-.vertical-base{	vertical-align:baseline;}
+.vertical-base{	vertical-align:left;}
 .vertical-top{	vertical-align:top;}
 nav.vertical ul li{	display:block;}
 nav.horizontal ul li{	display: inline-block;}
@@ -133,6 +133,7 @@ nav a#pull:after {
 	background:##cc9966;
 	text-align:center;
 	padding:20px 0;
+
 }
 
 
@@ -190,7 +191,7 @@ nav a#pull:after {
 	display:block;
 }
 
-/*----start---mid-grid-----*/
+
 .border-strip{
 	padding:12px 0;
 }
@@ -239,6 +240,9 @@ nav a#pull:after {
 /************** About ************/
 .header_img{
 	position:relative;
+}
+.full-wide{
+	width:100%;
 }
 .about-info{
 	margin-top:2em;
@@ -357,3 +361,13 @@ nav a#pull:after {
 	width:70%;
 	margin-left:5%;
 }
+table, td, th {
+
+}
+
+td{
+height: 80px;
+}
+
+
+
